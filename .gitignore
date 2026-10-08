@@ -1,2 +1,13 @@
 .DS_Store
 .claude/settings.local.json
+
+# Independent video lesson build products and local dependencies
+__pycache__/
+*.py[cod]
+.venv/
+lessons/video/**/output/
+lessons/video/**/assets/*.otf
+lessons/video/**/assets/*.ttf
+lessons/video/**/assets/*.ttc
+lessons/video/**/assets/source_problem.*
+

@@ -1,0 +1,789 @@
+{
+  "title": "古诗里的位置：有序数对与平移",
+  "total_duration": 126.476,
+  "total_samples": 3035424,
+  "voice": {
+    "provider": "Microsoft Edge read-aloud via edge-tts",
+    "name": "zh-CN-XiaoxiaoNeural",
+    "locale": "zh-CN",
+    "rate": "-8%",
+    "synthetic": true,
+    "edge_tts_version": "7.2.8"
+  },
+  "audio_format": {
+    "sample_rate": 24000,
+    "channels": 1,
+    "sample_width_bytes": 2,
+    "encoding": "signed 16-bit PCM little-endian"
+  },
+  "pauses": {
+    "scene_lead_in": 0.3,
+    "utterance_gap": 0.25,
+    "scene_tail": 0.7,
+    "final_review": 1.5
+  },
+  "timing_convention": "All times are absolute seconds. Line start/end/duration describe decoded audio; caption_start/caption_end describe subtitle display. Scene spans include silence. Timing is accumulated at exact PCM sample boundaries.",
+  "scenes": [
+    {
+      "id": "intro",
+      "chapter": 0,
+      "title": "古诗里的位置",
+      "start": 0.0,
+      "start_sample": 0,
+      "lines": [
+        {
+          "id": "intro_01",
+          "text": "这道题把古诗藏进了方格里。",
+          "caption": "这道题把古诗藏进了方格里。",
+          "start": 0.3,
+          "end": 3.732,
+          "duration": 3.4320000000000004,
+          "start_sample": 7200,
+          "end_sample": 89568,
+          "audio": "audio/intro_01.mp3",
+          "sentences": [
+            {
+              "text": "这道题把古诗藏进了方格里。",
+              "start": 0.4,
+              "end": 3.7195651,
+              "offset_100ns": 1000000,
+              "duration_100ns": 33195651
+            }
+          ],
+          "caption_start": 0.3,
+          "caption_end": 3.982
+        },
+        {
+          "id": "intro_02",
+          "text": "我们一起用有序数对，找到汉字的位置。",
+          "caption": "我们一起用有序数对，找到汉字的位置。",
+          "start": 3.982,
+          "end": 8.23,
+          "duration": 4.248,
+          "start_sample": 95568,
+          "end_sample": 197520,
+          "audio": "audio/intro_02.mp3",
+          "sentences": [
+            {
+              "text": "我们一起用有序数对，找到汉字的位置。",
+              "start": 4.082,
+              "end": 8.2167825,
+              "offset_100ns": 1000000,
+              "duration_100ns": 41347825
+            }
+          ],
+          "caption_start": 3.982,
+          "caption_end": 9.23
+        }
+      ],
+      "end": 8.93,
+      "end_sample": 214320,
+      "duration": 8.93
+    },
+    {
+      "id": "columns",
+      "chapter": 0,
+      "title": "先认识：列",
+      "start": 8.93,
+      "start_sample": 214320,
+      "lines": [
+        {
+          "id": "columns_01",
+          "text": "列号在下方，从左往右数。",
+          "caption": "列号在下方，从左往右数。",
+          "start": 9.23,
+          "end": 12.566,
+          "duration": 3.3360000000000003,
+          "start_sample": 221520,
+          "end_sample": 301584,
+          "audio": "audio/columns_01.mp3",
+          "sentences": [
+            {
+              "text": "列号在下方，从左往右数。",
+              "start": 9.33,
+              "end": 12.5544564,
+              "offset_100ns": 1000000,
+              "duration_100ns": 32244564
+            }
+          ],
+          "caption_start": 9.23,
+          "caption_end": 12.816
+        },
+        {
+          "id": "columns_02",
+          "text": "第一列、第二列，一直数到第九列。",
+          "caption": "第一列、第二列，一直数到第九列。",
+          "start": 12.816,
+          "end": 16.872,
+          "duration": 4.055999999999999,
+          "start_sample": 307584,
+          "end_sample": 404928,
+          "audio": "audio/columns_02.mp3",
+          "sentences": [
+            {
+              "text": "第一列、第二列，一直数到第九列。",
+              "start": 12.916,
+              "end": 16.860565100000002,
+              "offset_100ns": 1000000,
+              "duration_100ns": 39445651
+            }
+          ],
+          "caption_start": 12.816,
+          "caption_end": 17.872
+        }
+      ],
+      "end": 17.572,
+      "end_sample": 421728,
+      "duration": 8.642
+    },
+    {
+      "id": "rows",
+      "chapter": 0,
+      "title": "再认识：行",
+      "start": 17.572,
+      "start_sample": 421728,
+      "lines": [
+        {
+          "id": "rows_01",
+          "text": "行号在左侧，要从下往上数。",
+          "caption": "行号在左侧，要从下往上数。",
+          "start": 17.872,
+          "end": 21.376,
+          "duration": 3.5040000000000013,
+          "start_sample": 428928,
+          "end_sample": 513024,
+          "audio": "audio/rows_01.mp3",
+          "sentences": [
+            {
+              "text": "行号在左侧，要从下往上数。",
+              "start": 17.972,
+              "end": 21.3594999,
+              "offset_100ns": 1000000,
+              "duration_100ns": 33874999
+            }
+          ],
+          "caption_start": 17.872,
+          "caption_end": 21.626
+        },
+        {
+          "id": "rows_02",
+          "text": "最下面是第一行，最上面是第六行。",
+          "caption": "最下面是第一行，最上面是第六行。",
+          "start": 21.626,
+          "end": 25.634,
+          "duration": 4.007999999999999,
+          "start_sample": 519024,
+          "end_sample": 615216,
+          "audio": "audio/rows_02.mp3",
+          "sentences": [
+            {
+              "text": "最下面是第一行，最上面是第六行。",
+              "start": 21.726000000000003,
+              "end": 25.616217300000002,
+              "offset_100ns": 1000000,
+              "duration_100ns": 38902173
+            }
+          ],
+          "caption_start": 21.626,
+          "caption_end": 26.634
+        }
+      ],
+      "end": 26.334,
+      "end_sample": 632016,
+      "duration": 8.762
+    },
+    {
+      "id": "rule",
+      "chapter": 0,
+      "title": "有序数对：先列后行",
+      "start": 26.334,
+      "start_sample": 632016,
+      "lines": [
+        {
+          "id": "rule_01",
+          "text": "有序数对的规则是：先列，后行。",
+          "caption": "有序数对的规则是：先列，后行。",
+          "start": 26.634,
+          "end": 30.834,
+          "duration": 4.199999999999999,
+          "start_sample": 639216,
+          "end_sample": 740016,
+          "audio": "audio/rule_01.mp3",
+          "sentences": [
+            {
+              "text": "有序数对的规则是：先列，后行。",
+              "start": 26.734,
+              "end": 30.8280216,
+              "offset_100ns": 1000000,
+              "duration_100ns": 40940216
+            }
+          ],
+          "caption_start": 26.634,
+          "caption_end": 31.084
+        },
+        {
+          "id": "rule_02",
+          "text": "括号里的第一个数写列数，第二个数写行数。",
+          "caption": "括号里的第一个数写列数，第二个数写行数。",
+          "start": 31.084,
+          "end": 35.524,
+          "duration": 4.440000000000001,
+          "start_sample": 746016,
+          "end_sample": 852576,
+          "audio": "audio/rule_02.mp3",
+          "sentences": [
+            {
+              "text": "括号里的第一个数写列数，第二个数写行数。",
+              "start": 31.184,
+              "end": 35.5089999,
+              "offset_100ns": 1000000,
+              "duration_100ns": 43249999
+            }
+          ],
+          "caption_start": 31.084,
+          "caption_end": 36.524
+        }
+      ],
+      "end": 36.224,
+      "end_sample": 869376,
+      "duration": 9.889999999999997
+    },
+    {
+      "id": "boat_col",
+      "chapter": 1,
+      "title": "找“舟”：先看列",
+      "start": 36.224,
+      "start_sample": 869376,
+      "lines": [
+        {
+          "id": "boat_col_01",
+          "text": "先找舟字。沿着它这一列往下看。",
+          "caption": "先找“舟”字。沿着它这一列往下看。",
+          "start": 36.524,
+          "end": 40.82,
+          "duration": 4.295999999999999,
+          "start_sample": 876576,
+          "end_sample": 979680,
+          "audio": "audio/boat_col_01.mp3",
+          "sentences": [
+            {
+              "text": "先找舟字。",
+              "start": 36.624,
+              "end": 38.3131304,
+              "offset_100ns": 1000000,
+              "duration_100ns": 16891304
+            },
+            {
+              "text": "沿着它这一列往下看。",
+              "start": 38.2631304,
+              "end": 40.7495433,
+              "offset_100ns": 17391304,
+              "duration_100ns": 24864129
+            }
+          ],
+          "caption_start": 36.524,
+          "caption_end": 41.07
+        },
+        {
+          "id": "boat_col_02",
+          "text": "对应的列号是五，所以它在第五列。",
+          "caption": "对应的列号是五，所以它在第五列。",
+          "start": 41.07,
+          "end": 44.886,
+          "duration": 3.8160000000000025,
+          "start_sample": 985680,
+          "end_sample": 1077264,
+          "audio": "audio/boat_col_02.mp3",
+          "sentences": [
+            {
+              "text": "对应的列号是五，所以它在第五列。",
+              "start": 41.17,
+              "end": 44.8835868,
+              "offset_100ns": 1000000,
+              "duration_100ns": 37135868
+            }
+          ],
+          "caption_start": 41.07,
+          "caption_end": 45.886
+        }
+      ],
+      "end": 45.586,
+      "end_sample": 1094064,
+      "duration": 9.362000000000002
+    },
+    {
+      "id": "boat_row",
+      "chapter": 1,
+      "title": "找“舟”：再看行",
+      "start": 45.586,
+      "start_sample": 1094064,
+      "lines": [
+        {
+          "id": "boat_row_01",
+          "text": "再沿着舟字这一行往左看。",
+          "caption": "再沿着“舟”字这一行往左看。",
+          "start": 45.886,
+          "end": 49.102,
+          "duration": 3.215999999999994,
+          "start_sample": 1101264,
+          "end_sample": 1178448,
+          "audio": "audio/boat_row_01.mp3",
+          "sentences": [
+            {
+              "text": "再沿着舟字这一行往左看。",
+              "start": 45.986000000000004,
+              "end": 49.0881738,
+              "offset_100ns": 1000000,
+              "duration_100ns": 31021738
+            }
+          ],
+          "caption_start": 45.886,
+          "caption_end": 49.352
+        },
+        {
+          "id": "boat_row_02",
+          "text": "对应的行号是四，所以它在第四行。",
+          "caption": "对应的行号是四，所以它在第四行。",
+          "start": 49.352,
+          "end": 53.264,
+          "duration": 3.912000000000006,
+          "start_sample": 1184448,
+          "end_sample": 1278336,
+          "audio": "audio/boat_row_02.mp3",
+          "sentences": [
+            {
+              "text": "对应的行号是四，所以它在第四行。",
+              "start": 49.452,
+              "end": 53.2471086,
+              "offset_100ns": 1000000,
+              "duration_100ns": 37951086
+            }
+          ],
+          "caption_start": 49.352,
+          "caption_end": 54.264
+        }
+      ],
+      "end": 53.964,
+      "end_sample": 1295136,
+      "duration": 8.378
+    },
+    {
+      "id": "boat_answer",
+      "chapter": 1,
+      "title": "“舟”的位置：确定答案",
+      "start": 53.964,
+      "start_sample": 1295136,
+      "lines": [
+        {
+          "id": "boat_answer_01",
+          "text": "因此，舟在第五列、第四行。",
+          "caption": "因此，“舟”在第五列、第四行。",
+          "start": 54.264,
+          "end": 57.912,
+          "duration": 3.647999999999996,
+          "start_sample": 1302336,
+          "end_sample": 1389888,
+          "audio": "audio/boat_answer_01.mp3",
+          "sentences": [
+            {
+              "text": "因此，舟在第五列、第四行。",
+              "start": 54.364000000000004,
+              "end": 57.900956400000005,
+              "offset_100ns": 1000000,
+              "duration_100ns": 35369564
+            }
+          ],
+          "caption_start": 54.264,
+          "caption_end": 58.162
+        },
+        {
+          "id": "boat_answer_02",
+          "text": "用有序数对表示，就是五、四。",
+          "caption": "用有序数对表示，就是五、四。",
+          "start": 58.162,
+          "end": 61.954,
+          "duration": 3.7920000000000016,
+          "start_sample": 1395888,
+          "end_sample": 1486896,
+          "audio": "audio/boat_answer_02.mp3",
+          "sentences": [
+            {
+              "text": "用有序数对表示，就是五、四。",
+              "start": 58.262,
+              "end": 61.9484129,
+              "offset_100ns": 1000000,
+              "duration_100ns": 36864129
+            }
+          ],
+          "caption_start": 58.162,
+          "caption_end": 62.954
+        }
+      ],
+      "end": 62.654,
+      "end_sample": 1503696,
+      "duration": 8.690000000000005
+    },
+    {
+      "id": "seven_col",
+      "chapter": 2,
+      "title": "看（7，2）：先找第 7 列",
+      "start": 62.654,
+      "start_sample": 1503696,
+      "lines": [
+        {
+          "id": "seven_col_01",
+          "text": "再看七、二。先找到第七列。",
+          "caption": "再看七、二。先找到第七列。",
+          "start": 62.954,
+          "end": 67.178,
+          "duration": 4.223999999999997,
+          "start_sample": 1510896,
+          "end_sample": 1612272,
+          "audio": "audio/seven_col_01.mp3",
+          "sentences": [
+            {
+              "text": "再看七、二。",
+              "start": 63.054,
+              "end": 65.1099782,
+              "offset_100ns": 1000000,
+              "duration_100ns": 20559782
+            },
+            {
+              "text": "先找到第七列。",
+              "start": 65.0599782,
+              "end": 67.1251955,
+              "offset_100ns": 21059782,
+              "duration_100ns": 20652173
+            }
+          ],
+          "caption_start": 62.954,
+          "caption_end": 68.178
+        }
+      ],
+      "end": 67.878,
+      "end_sample": 1629072,
+      "duration": 5.223999999999997
+    },
+    {
+      "id": "seven_row",
+      "chapter": 2,
+      "title": "看（7，2）：再找第 2 行",
+      "start": 67.878,
+      "start_sample": 1629072,
+      "lines": [
+        {
+          "id": "seven_row_01",
+          "text": "第二个数是二，再找到第二行。",
+          "caption": "第二个数是二，再找到第二行。",
+          "start": 68.178,
+          "end": 71.562,
+          "duration": 3.3840000000000003,
+          "start_sample": 1636272,
+          "end_sample": 1717488,
+          "audio": "audio/seven_row_01.mp3",
+          "sentences": [
+            {
+              "text": "第二个数是二，再找到第二行。",
+              "start": 68.27799999999999,
+              "end": 71.5432173,
+              "offset_100ns": 1000000,
+              "duration_100ns": 32652173
+            }
+          ],
+          "caption_start": 68.178,
+          "caption_end": 72.562
+        }
+      ],
+      "end": 72.262,
+      "end_sample": 1734288,
+      "duration": 4.384
+    },
+    {
+      "id": "seven_answer",
+      "chapter": 2,
+      "title": "交叉的格子里，是什么字？",
+      "start": 72.262,
+      "start_sample": 1734288,
+      "lines": [
+        {
+          "id": "seven_answer_01",
+          "text": "第七列与第二行交叉的格子里，是千字。",
+          "caption": "第七列与第二行交叉的格子里，是“千”字。",
+          "start": 72.562,
+          "end": 76.858,
+          "duration": 4.2960000000000065,
+          "start_sample": 1741488,
+          "end_sample": 1844592,
+          "audio": "audio/seven_answer_01.mp3",
+          "sentences": [
+            {
+              "text": "第七列与第二行交叉的格子里，是千字。",
+              "start": 72.66199999999999,
+              "end": 76.8511303,
+              "offset_100ns": 1000000,
+              "duration_100ns": 41891303
+            }
+          ],
+          "caption_start": 72.562,
+          "caption_end": 77.858
+        }
+      ],
+      "end": 77.558,
+      "end_sample": 1861392,
+      "duration": 5.2960000000000065
+    },
+    {
+      "id": "shift_start",
+      "chapter": 3,
+      "title": "平移前：先找“赠”的位置",
+      "start": 77.558,
+      "start_sample": 1861392,
+      "lines": [
+        {
+          "id": "shift_start_01",
+          "text": "最后，把整首诗向左平移一格。",
+          "caption": "最后，把整首诗向左平移一格。",
+          "start": 77.858,
+          "end": 81.674,
+          "duration": 3.8160000000000025,
+          "start_sample": 1868592,
+          "end_sample": 1960176,
+          "audio": "audio/shift_start_01.mp3",
+          "sentences": [
+            {
+              "text": "最后，把整首诗向左平移一格。",
+              "start": 77.958,
+              "end": 81.6715868,
+              "offset_100ns": 1000000,
+              "duration_100ns": 37135868
+            }
+          ],
+          "caption_start": 77.858,
+          "caption_end": 81.924
+        },
+        {
+          "id": "shift_start_02",
+          "text": "先找原来的赠字，它在第四列、第六行。",
+          "caption": "先找原来的“赠”字，它在第四列、第六行。",
+          "start": 81.924,
+          "end": 86.532,
+          "duration": 4.60799999999999,
+          "start_sample": 1966176,
+          "end_sample": 2076768,
+          "audio": "audio/shift_start_02.mp3",
+          "sentences": [
+            {
+              "text": "先找原来的赠字，它在第四列、第六行。",
+              "start": 82.024,
+              "end": 86.5120433,
+              "offset_100ns": 1000000,
+              "duration_100ns": 44880433
+            }
+          ],
+          "caption_start": 81.924,
+          "caption_end": 87.532
+        }
+      ],
+      "end": 87.232,
+      "end_sample": 2093568,
+      "duration": 9.673999999999992
+    },
+    {
+      "id": "shift_move",
+      "chapter": 3,
+      "title": "整首诗一起向左移动 1 格",
+      "start": 87.232,
+      "start_sample": 2093568,
+      "lines": [
+        {
+          "id": "shift_move_01",
+          "text": "网格和标号不动，整首诗一起向左移动。",
+          "caption": "网格和标号不动，整首诗一起向左移动。",
+          "start": 87.532,
+          "end": 92.164,
+          "duration": 4.632000000000005,
+          "start_sample": 2100768,
+          "end_sample": 2211936,
+          "audio": "audio/shift_move_01.mp3",
+          "sentences": [
+            {
+              "text": "网格和标号不动，整首诗一起向左移动。",
+              "start": 87.63199999999999,
+              "end": 92.1472173,
+              "offset_100ns": 1000000,
+              "duration_100ns": 45152173
+            }
+          ],
+          "caption_start": 87.532,
+          "caption_end": 92.414
+        },
+        {
+          "id": "shift_move_02",
+          "text": "看，赠从第四列，移到了第三列。",
+          "caption": "看，“赠”从第四列，移到了第三列。",
+          "start": 92.414,
+          "end": 96.398,
+          "duration": 3.9839999999999947,
+          "start_sample": 2217936,
+          "end_sample": 2313552,
+          "audio": "audio/shift_move_02.mp3",
+          "sentences": [
+            {
+              "text": "看，赠从第四列，移到了第三列。",
+              "start": 92.514,
+              "end": 96.3906303,
+              "offset_100ns": 1000000,
+              "duration_100ns": 38766303
+            }
+          ],
+          "caption_start": 92.414,
+          "caption_end": 97.398
+        }
+      ],
+      "end": 97.098,
+      "end_sample": 2330352,
+      "duration": 9.866
+    },
+    {
+      "id": "shift_rule",
+      "chapter": 3,
+      "title": "平移后：列变，行不变",
+      "start": 97.098,
+      "start_sample": 2330352,
+      "lines": [
+        {
+          "id": "shift_rule_01",
+          "text": "它仍在第六行，所以新的数对是三、六。",
+          "caption": "它仍在第六行，所以新的数对是三、六。",
+          "start": 97.398,
+          "end": 101.91,
+          "duration": 4.5120000000000005,
+          "start_sample": 2337552,
+          "end_sample": 2445840,
+          "audio": "audio/shift_rule_01.mp3",
+          "sentences": [
+            {
+              "text": "它仍在第六行，所以新的数对是三、六。",
+              "start": 97.49799999999999,
+              "end": 101.8909347,
+              "offset_100ns": 1000000,
+              "duration_100ns": 43929347
+            }
+          ],
+          "caption_start": 97.398,
+          "caption_end": 102.16
+        },
+        {
+          "id": "shift_rule_02",
+          "text": "向左一格，列数减一，行数保持不变。",
+          "caption": "向左一格，列数减一，行数保持不变。",
+          "start": 102.16,
+          "end": 106.6,
+          "duration": 4.439999999999998,
+          "start_sample": 2451840,
+          "end_sample": 2558400,
+          "audio": "audio/shift_rule_02.mp3",
+          "sentences": [
+            {
+              "text": "向左一格，列数减一，行数保持不变。",
+              "start": 102.25999999999999,
+              "end": 106.59858679999999,
+              "offset_100ns": 1000000,
+              "duration_100ns": 43385868
+            }
+          ],
+          "caption_start": 102.16,
+          "caption_end": 107.6
+        }
+      ],
+      "end": 107.3,
+      "end_sample": 2575200,
+      "duration": 10.201999999999998
+    },
+    {
+      "id": "recap",
+      "chapter": 4,
+      "title": "答案回顾",
+      "start": 107.3,
+      "start_sample": 2575200,
+      "lines": [
+        {
+          "id": "recap_01",
+          "text": "回顾答案：舟在第五列、第四行，数对是五、四。",
+          "caption": "回顾答案：“舟”在第五列、第四行，数对是五、四。",
+          "start": 107.6,
+          "end": 113.432,
+          "duration": 5.832000000000008,
+          "start_sample": 2582400,
+          "end_sample": 2722368,
+          "audio": "audio/recap_01.mp3",
+          "sentences": [
+            {
+              "text": "回顾答案：舟在第五列、第四行，数对是五、四。",
+              "start": 107.69999999999999,
+              "end": 113.4108694,
+              "offset_100ns": 1000000,
+              "duration_100ns": 57108694
+            }
+          ],
+          "caption_start": 107.6,
+          "caption_end": 113.682
+        },
+        {
+          "id": "recap_02",
+          "text": "七、二对应千；左移后的赠是三、六。",
+          "caption": "七、二对应“千”；左移后的“赠”是三、六。",
+          "start": 113.682,
+          "end": 118.29,
+          "duration": 4.608000000000004,
+          "start_sample": 2728368,
+          "end_sample": 2838960,
+          "audio": "audio/recap_02.mp3",
+          "sentences": [
+            {
+              "text": "七、二对应千；左移后的赠是三、六。",
+              "start": 113.782,
+              "end": 118.2700433,
+              "offset_100ns": 1000000,
+              "duration_100ns": 44880433
+            }
+          ],
+          "caption_start": 113.682,
+          "caption_end": 118.54
+        },
+        {
+          "id": "recap_03",
+          "text": "找位置先列后行。做平移，判断哪一个数改变。",
+          "caption": "找位置先列后行。做平移，判断哪一个数改变。",
+          "start": 118.54,
+          "end": 124.276,
+          "duration": 5.73599999999999,
+          "start_sample": 2844960,
+          "end_sample": 2982624,
+          "audio": "audio/recap_03.mp3",
+          "sentences": [
+            {
+              "text": "找位置先列后行。",
+              "start": 118.64,
+              "end": 120.9813043,
+              "offset_100ns": 1000000,
+              "duration_100ns": 23413043
+            },
+            {
+              "text": "做平移，判断哪一个数改变。",
+              "start": 120.93130430000001,
+              "end": 124.20576070000001,
+              "offset_100ns": 23913043,
+              "duration_100ns": 32744564
+            }
+          ],
+          "caption_start": 118.54,
+          "caption_end": 126.476
+        }
+      ],
+      "end": 126.476,
+      "end_sample": 3035424,
+      "duration": 19.176000000000002
+    }
+  ]
+}
